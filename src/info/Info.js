@@ -4,6 +4,7 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -84,7 +85,7 @@ export const info = {
             label: 'DIY',
         },
         {
-            label: 'movies',
+            label: 'filmes',
         },
         {
             label: 'violão',
@@ -127,6 +128,13 @@ export const info = {
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5
+        },
+        {
+            title: "SISTEMA DE PONTO DE VENDA",
+            descricao: "Aplicação desenvolvida para auxiliar nas vendas e gestão do mercadinho do meu pai.",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock6
         },
     ]
 }
