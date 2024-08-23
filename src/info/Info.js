@@ -73,7 +73,7 @@ export const info = {
     bio: "Olá, me chamo Davison. Nasci no interior da Paraíba e atualmente estou cursando Engenharia de Computação na Univercidade Federal da Paraíba - UFPB. Apaixonado por desafios e novas tecnologias acabei embarcando nas Stacks web/mobile e a cada dia gostando ainda mais. Além de uns bons desafios gosto muito de bater uma bolinha e assitir um bom filme",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'bootstrap', 'html5', 'css', 'figma', 'C', 'C++', 'react native', 'ionic', 'axios', 'insomnia', 'jwt', 'nodejs', 'python',  'git', 'github', 'angular', 'vue.js'],
+            proficientWith: ['javascript', 'react', 'bootstrap', 'html5', 'css', 'figma', 'C', 'C++', 'react native', 'ionic', 'axios', 'insomnia', 'jwt', 'nodejs', 'python',  'git', 'github', 'angular', 'vue.js', 'django'],
             exposedTo: ['typescript', 'prisma', 'koa', 'express', 'mongodb', 'firebase', 'planetscale']
         }
     ,
