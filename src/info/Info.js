@@ -73,8 +73,8 @@ export const info = {
     bio: "Olá, me chamo Davison. Nasci no interior da Paraíba e atualmente estou cursando Engenharia de Computação na Univercidade Federal da Paraíba - UFPB. Apaixonado por desafios e novas tecnologias acabei embarcando nas Stacks web/mobile e a cada dia gostando ainda mais. Além de uns bons desafios gosto muito de bater uma bolinha e assitir um bom filme",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'bootstrap', 'html5', 'css', 'figma', 'C', 'C++', 'react native', 'ionic', 'axios', 'insomnia', 'jwt'],
-            exposedTo: ['nodejs', 'python',  'git', 'github', 'angular', 'typescript', 'prisma', 'koa', 'express', 'mongodb', 'firebase', 'planetscale']
+            proficientWith: ['javascript', 'react', 'bootstrap', 'html5', 'css', 'figma', 'C', 'C++', 'react native', 'ionic', 'axios', 'insomnia', 'jwt', 'nodejs', 'python',  'git', 'github', 'angular', 'vue.js'],
+            exposedTo: ['typescript', 'prisma', 'koa', 'express', 'mongodb', 'firebase', 'planetscale']
         }
     ,
     hobbies: [
@@ -135,6 +135,20 @@ export const info = {
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock6
+        },
+        {
+            title: "TERMÔMETRO DE SERVOÇOS",
+            descricao: "Aplicação desenvolvida para auxiliar o setor administrativo da empresa a vizualizar e tomar decisões sobre os serviços e as metas de caada equipe de funcionarios.",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock7
+        },
+        {
+            title: "TERMÔMETRO DE SERVOÇOS",
+            descricao: "Aplicação desenvolvida para auxiliar o setor operário da empresa a calcular e informar sobre os serviços já realizados.",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock8
         },
     ]
 }
