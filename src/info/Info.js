@@ -139,14 +139,14 @@ export const info = {
             image: mock6
         },
         {
-            title: "TERMÔMETRO DE SERVOÇOS",
+            title: "TERMÔMETRO DE SERVIÇOS",
             descricao: "Aplicação desenvolvida em NEXTJS para auxiliar o setor administrativo da empresa a vizualizar e tomar decisões sobre os serviços e as metas de caada equipe de funcionarios.",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock7
         },
         {
-            title: "TERMÔMETRO DE SERVOÇOS",
+            title: "TERMÔMETRO DE SERVIÇOS",
             descricao: "Aplicação desenvolvida em FLUTTER para auxiliar o setor operário da empresa a calcular e informar sobre os serviços já realizados.",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
