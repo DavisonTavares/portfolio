@@ -97,11 +97,18 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Sou Peladeiro",
-            descricao: "Aplicativo foi desenvolvido utilizando o Framework Ionic, afim de ser um organizador prático para gerenciar partidas de futebol amador (com o sistema também é possivel sortear times de otras modalidades já que conta com um modificador de jogadores por equipe) com o app é possivel sortear equipes, realizar rancking por assistências e gols, e acompanhar a partida já que o mesmo conta com um cronômetro.",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "TERMÔMETRO DE SERVIÇOS",
+            descricao: "Aplicação desenvolvida em NEXTJS para auxiliar o setor administrativo da empresa a vizualizar e tomar decisões sobre os serviços e as metas de caada equipe de funcionarios.",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock7
+        },
+        {
+            title: "TERMÔMETRO DE SERVIÇOS",
+            descricao: "Aplicação desenvolvida em FLUTTER para auxiliar o setor operário da empresa a calcular e informar sobre os serviços já realizados.",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock8
         },
         {
             title: "Gerenciador de Caixa",
@@ -139,18 +146,19 @@ export const info = {
             image: mock6
         },
         {
-            title: "TERMÔMETRO DE SERVIÇOS",
-            descricao: "Aplicação desenvolvida em NEXTJS para auxiliar o setor administrativo da empresa a vizualizar e tomar decisões sobre os serviços e as metas de caada equipe de funcionarios.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock7
+            title: "RAPIDEX",
+            descricao: "O RAPIDEX é um sistema de vendas de água desenvolvido em Django, criado para fins acadêmicos como projeto de disciplina. Ele oferece funcionalidades completas para a gestão de vendas, incluindo controle de estoque, acompanhamento de pedidos, geração de relatórios de produtos, vendas e desempenho de vendedores, além de gerenciamento de comissões e metas. O objetivo do sistema é otimizar processos e facilitar a organização das operações de uma empresa de vendas de água.",
+            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock9
         },
         {
-            title: "TERMÔMETRO DE SERVIÇOS",
-            descricao: "Aplicação desenvolvida em FLUTTER para auxiliar o setor operário da empresa a calcular e informar sobre os serviços já realizados.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock8
+            title: "Sou Peladeiro",
+            descricao: "Aplicativo foi desenvolvido utilizando o Framework Ionic, afim de ser um organizador prático para gerenciar partidas de futebol amador (com o sistema também é possivel sortear times de otras modalidades já que conta com um modificador de jogadores por equipe) com o app é possivel sortear equipes, realizar rancking por assistências e gols, e acompanhar a partida já que o mesmo conta com um cronômetro.",
+            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         },
+
     ]
 }
