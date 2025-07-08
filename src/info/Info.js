@@ -76,7 +76,7 @@ export const info = {
     bio: "Olá, me chamo Davison. Nasci no interior da Paraíba e atualmente estou cursando Engenharia de Computação na Univercidade Federal da Paraíba - UFPB. Apaixonado por desafios e novas tecnologias acabei embarcando nas Stacks web/mobile e a cada dia gostando ainda mais. Além de uns bons desafios gosto muito de bater uma bolinha e assitir um bom filme",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'bootstrap', 'html5', 'css', 'figma', 'C', 'C++', 'react native', 'ionic', 'axios', 'insomnia', 'jwt', 'nodejs', 'python',  'git', 'github', 'angular', 'vue.js', 'django', 'flutter'],
+            proficientWith: ['javascript', 'nestJS', 'nextJS', 'react native', 'jwt', 'nodejs', 'git', 'github', 'django', 'flutter'],
             exposedTo: ['typescript', 'prisma', 'koa', 'express', 'mongodb', 'firebase', 'planetscale']
         }
     ,
@@ -87,12 +87,6 @@ export const info = {
         {
             label: 'DIY',
         },
-        {
-            label: 'filmes',
-        },
-        {
-            label: 'violão',
-        }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
