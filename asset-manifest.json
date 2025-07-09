@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7244915a.css",
-    "main.js": "/static/js/main.6cbb71eb.js",
-    "static/media/mock8.jpeg": "/static/media/mock8.915d043c9c56b63a2ebe.jpeg",
-    "static/media/self.png": "/static/media/self.4b02ab5b37f65a30bb55.png",
-    "static/media/mock5.png": "/static/media/mock5.fd1c21972735ab1621b8.png",
-    "static/media/mock2.png": "/static/media/mock2.3eb302c0c70746237c7a.png",
-    "static/media/mock3.png": "/static/media/mock3.478100d93812e6a76dc0.png",
-    "static/media/mock1.png": "/static/media/mock1.1c555df6e5e8696d0549.png",
-    "static/media/mock9.png": "/static/media/mock9.a7ef7defca53c02188b2.png",
-    "static/media/mock4.png": "/static/media/mock4.077d7d1fbd95e93935e5.png",
-    "static/media/mock6.png": "/static/media/mock6.3fdb1a7cf6fc9fa6bcc5.png",
-    "static/media/mock7.png": "/static/media/mock7.40a32f597dd991b105a3.png",
-    "index.html": "/index.html",
-    "main.7244915a.css.map": "/static/css/main.7244915a.css.map",
-    "main.6cbb71eb.js.map": "/static/js/main.6cbb71eb.js.map"
+    "main.css": "/portfolio/static/css/main.7244915a.css",
+    "main.js": "/portfolio/static/js/main.56b6fc0b.js",
+    "static/media/mock8.jpeg": "/portfolio/static/media/mock8.915d043c9c56b63a2ebe.jpeg",
+    "static/media/self.png": "/portfolio/static/media/self.4b02ab5b37f65a30bb55.png",
+    "static/media/mock5.png": "/portfolio/static/media/mock5.fd1c21972735ab1621b8.png",
+    "static/media/mock2.png": "/portfolio/static/media/mock2.3eb302c0c70746237c7a.png",
+    "static/media/mock3.png": "/portfolio/static/media/mock3.478100d93812e6a76dc0.png",
+    "static/media/mock1.png": "/portfolio/static/media/mock1.1c555df6e5e8696d0549.png",
+    "static/media/mock9.png": "/portfolio/static/media/mock9.a7ef7defca53c02188b2.png",
+    "static/media/mock4.png": "/portfolio/static/media/mock4.077d7d1fbd95e93935e5.png",
+    "static/media/mock6.png": "/portfolio/static/media/mock6.3fdb1a7cf6fc9fa6bcc5.png",
+    "static/media/mock7.png": "/portfolio/static/media/mock7.40a32f597dd991b105a3.png",
+    "index.html": "/portfolio/index.html",
+    "main.7244915a.css.map": "/portfolio/static/css/main.7244915a.css.map",
+    "main.56b6fc0b.js.map": "/portfolio/static/js/main.56b6fc0b.js.map"
   },
   "entrypoints": [
     "static/css/main.7244915a.css",
-    "static/js/main.6cbb71eb.js"
+    "static/js/main.56b6fc0b.js"
   ]
 }
