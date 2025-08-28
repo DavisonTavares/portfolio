@@ -9,44 +9,28 @@ import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.jpeg"
 import mock9 from "../img/mock9.png"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
-
-//export let colors = ["rgb(248, 248, 255)", "rgb(174, 174, 255)"];
 export let colors = ["rgb(248, 248, 255)", "rgb(248, 248, 255)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
     firstName: "Davison",
     lastName: "Tavares",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    initials: "dt", // Alterado para iniciais do seu nome
+    position: "Desenvolvedor Full Stack & Mobile",
+    selfPortrait: self,
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'Alimentado por café e código'
         },
         {
             emoji: '🌎',
-            text: 'Brazilian'
+            text: 'João Pessoa, Brasil'
         },
         {
             emoji: "💼",
-            text: "computer engineering student"
+            text: "Engenheiro de Computação em formação"
         },
         {
             emoji: "📧",
@@ -69,91 +53,96 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
-    bio: "Olá, me chamo Davison. Nasci no interior da Paraíba e atualmente estou cursando Engenharia de Computação na Univercidade Federal da Paraíba - UFPB. Apaixonado por desafios e novas tecnologias acabei embarcando nas Stacks web/mobile e a cada dia gostando ainda mais. Além de uns bons desafios gosto muito de bater uma bolinha e assitir um bom filme",
-    skills:
-        {
-            proficientWith: ['javascript', 'nestJS', 'nextJS', 'react native', 'jwt', 'nodejs', 'git', 'github', 'django', 'flutter'],
-            exposedTo: ['typescript', 'prisma', 'koa', 'express', 'mongodb', 'firebase', 'planetscale']
-        }
-    ,
+    bio: "Engenheiro de Computação em formação pela UFPB com paixão por desenvolvimento full-stack e mobile. Experiência em criar soluções completas utilizando JavaScript, TypeScript, Python e frameworks modernos como React, Next.js, Node.js e Django. Autodidata e movido por desafios, busco sempre transformar ideias em aplicações robustas que resolvem problemas reais. Além do código, sou entusiasta de futebol e cinema.",
+    skills: {
+        proficientWith: [
+            'javascript', 'typescript', 'react', 'nextjs', 'nodejs', 
+            'nestjs', 'react native', 'flutter', 'django', 'python',
+            'git', 'github', 'jwt', 'postgresql'
+        ],
+        exposedTo: [
+            'prisma', 'koa', 'express', 'mongodb', 'firebase', 
+            'planetscale', 'docker', 'ionic'
+        ]
+    },
     hobbies: [
         {
-            label: 'futebol',
+            label: 'Futebol',
+            emoji: '⚽'
         },
         {
-            label: 'DIY',
+            label: 'Faça você mesmo (DIY)',
+            emoji: '🔧'
         },
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+        {
+            label: 'Cinema',
+            emoji: '🎬'
+        }
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
-            title: "TERMÔMETRO DE SERVIÇOS",
-            descricao: "Aplicação desenvolvida em NEXTJS para auxiliar o setor administrativo da empresa a vizualizar e tomar decisões sobre os serviços e as metas de caada equipe de funcionarios.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sistema de Gestão de Produção - Dashboard Web",
+            descricao: "Aplicação web desenvolvida em Next.js para otimizar a gestão operacional. Oferece uma interface administrativa completa e um dashboard interativo com visualização de KPIs em tempo real, permitindo à diretoria e ao setor técnico acompanhar a produtividade das equipes, analisar desempenhos e tomar decisões estratégicas com base em dados concretos.",
+            live: "#",
+            source: "#", 
             image: mock7
         },
         {
-            title: "TERMÔMETRO DE SERVIÇOS",
-            descricao: "Aplicação desenvolvida em FLUTTER para auxiliar o setor operário da empresa a calcular e informar sobre os serviços já realizados.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sistema de Gestão de Produção - App Mobile",
+            descricao: "Aplicativo desenvolvido em Flutter para o setor operário. Permite que colaboradores registrem atividades e produção em tempo real, integrando-se perfeitamente ao dashboard web. Modernizou o processo de reporte, substituindo planilhas manuais e garantindo dados precisos e instantâneos para a gerência.",
+            live: "#",
+            source: "#",
             image: mock8
         },
         {
-            title: "Gerenciador de Caixa",
-            descricao: "Aplicativo foi desenvolvido utilizando o Framework Ionic, o mesmo consiste em uma aplicação para gerenciar o estoque de produto e o valor total das vendas já consolidadas. O projeto é um CRUD utilizando o firebase onde na aplicação pode-se adicionar novos produtos, realizar vendas e deletar vendas ou produtos.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Gerenciador de Caixa e Estoque",
+            descricao: "Aplicativo mobile desenvolvido com Ionic e Firebase para controle integrado de vendas e estoque. Realiza operações CRUD, gerencia transações financeiras e oferece relatórios consolidados, ideal para pequenos comércios que necessitam de uma solução intuitiva e eficiente.",
+            live: "#",
+            source: "#",
             image: mock2
         },
         {
-            title: "Bolão World Cup",
-            descricao: "Aplicação mobile desenvolvida utilizando o React Native e Expo, a app foi desenvolvido para jogar um bolão da copa do mundo, o sistema conta com um Back-End utilizando o NodeJS, koa, e o planetscale como o bd, além do prisma para facilitar a comunicação com o mesmo. O app também conta com o sistema de autenticação utilizando token, para login automático. para a comunicação com a api foi utilizado o axios",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Bolão da Copa - App Mobile",
+            descricao: "Aplicativo em React Native para apostas em jogos da Copa do Mundo. Conta com sistema de autenticação JWT, integração com API RESTful desenvolvida em Node.js (Koa) e banco de dados PlanetScale. Os usuários podem criar palpites, acompanhar pontuações e competir em rankings.",
+            live: "#",
+            source: "#",
             image: mock3
         },
         {
-            title: "Bolão World Cup (web)",
-            descricao: "Aplicação web desenvolvida utilizando o React, a app foi desenvolvido para jogar um bolão da copa do mundo, o sistema conta com um Back-End utilizando o NodeJS, koa, e o planetscale como o bd, além do prisma para facilitar a comunicação com o mesmo. O app também conta com o sistema de autenticação utilizando token, para login automático. para a comunicação com a api foi utilizado o axios",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Bolão da Copa - Versão Web",
+            descricao: "Plataforma web em React com as mesmas funcionalidades do app mobile, oferecendo uma experiência responsiva e integrada para usuários que preferem apostar via desktop. Destaca-se pela interface limpa e desempenho otimizado.",
+            live: "#",
+            source: "#",
             image: mock4
         },
         {
-            title: "SISTEMA DE GERENCIAMENTO DE CUSTO",
-            descricao: "Aplicação web desenvolvida utilizando o React, o sitema foi densenvolvido para a empresa TECCEL, a fim de resolver um problema que eles tinham, o projeto foi desnvolvido de ponta a ponta, usando tecnologias como React, NodeJS, PostgresSQL, Prisma, Express, JWT, entre outras.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sistema de Gestão de Custos - Teccel Engenharia",
+            descricao: "Sistema full-stack desenvolvido para controle financeiro e orçamentário. Com front-end em React e back-end em Node.js + Express, utiliza PostgreSQL como banco principal e Prisma ORM. Inclui módulos de autenticação, relatórios personalizados e dashboard analítico.",
+            live: "#",
+            source: "#",
             image: mock5
         },
         {
-            title: "SISTEMA DE PONTO DE VENDA",
-            descricao: "Aplicação desenvolvida para auxiliar nas vendas e gestão do mercadinho do meu pai.",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sistema de Ponto de Venda (PDV)",
+            descricao: "Sistema desktop desenvolvido para automação comercial de um mercadinho. Controla vendas, emissão de notas, gestão de clientes e fornecedores, e geração de relatórios financeiros, trazendo organização e eficiência para o negócio.",
+            live: "#",
+            source: "#",
             image: mock6
         },
         {
-            title: "RAPIDEX",
-            descricao: "O RAPIDEX é um sistema de vendas de água desenvolvido em Django, criado para fins acadêmicos como projeto de disciplina. Ele oferece funcionalidades completas para a gestão de vendas, incluindo controle de estoque, acompanhamento de pedidos, geração de relatórios de produtos, vendas e desempenho de vendedores, além de gerenciamento de comissões e metas. O objetivo do sistema é otimizar processos e facilitar a organização das operações de uma empresa de vendas de água.",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "RAPIDEX - Sistema de Vendas de Água",
+            descricao: "Plataforma Django para gestão comercial de distribuição de água. Controla estoque, vendas, comissões de vendedores e métricas de desempenho. Gera relatórios detalhados e oferece uma solução completa para pequenas e médias empresas do segmento.",
+            live: "#",
+            source: "#",
             image: mock9
         },
         {
-            title: "Sou Peladeiro",
-            descricao: "Aplicativo foi desenvolvido utilizando o Framework Ionic, afim de ser um organizador prático para gerenciar partidas de futebol amador (com o sistema também é possivel sortear times de otras modalidades já que conta com um modificador de jogadores por equipe) com o app é possivel sortear equipes, realizar rancking por assistências e gols, e acompanhar a partida já que o mesmo conta com um cronômetro.",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Sou Peladeiro - Organizador de Peladas",
+            descricao: "App mobile desenvolvido em Ionic para amantes de futebol. Sortea times equilibrados, contabiliza gols, assistências, gera rankings e possui cronômetro integrado. Perfect para tornar as peladas mais organizadas e competitivas.",
+            live: "#",
+            source: "#",
             image: mock1
-        },
-
+        }
     ]
 }
